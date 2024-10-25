@@ -337,7 +337,7 @@ body {
   font-family: Zombie;
   color: #f5f5f5;
   overflow-x: hidden;
-  width: 100%;
+  width: 100wh;
 }
 
 .container {
