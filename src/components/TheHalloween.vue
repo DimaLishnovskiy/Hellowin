@@ -590,6 +590,7 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
 .title.mobile {
