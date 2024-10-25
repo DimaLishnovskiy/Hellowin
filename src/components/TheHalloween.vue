@@ -594,6 +594,9 @@ h3 {
 }
 
 @media (max-width: 575.98px) {
+  .title h1 {
+    width: 100%;
+  }
   .title_description {
     font-size: 24px;
     .green_text {
