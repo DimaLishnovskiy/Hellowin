@@ -371,7 +371,7 @@ body {
   gap: 30px;
   justify-content: space-around;
   padding: 70px 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
   text-align: center;
 
