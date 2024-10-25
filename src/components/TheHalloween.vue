@@ -328,7 +328,7 @@ button {
 }
 
 body {
-  background-image: url("@/assets/Halloween_background.webp");
+  background-image: url("@/assets/Halloween_event.webp");
   background-size: cover;
   background-attachment: fixed;
   background-position: center -35px;
