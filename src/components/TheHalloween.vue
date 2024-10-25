@@ -327,6 +327,11 @@ button {
   }
 }
 
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   background-image: url("@/assets/Halloween_event.webp");
   background-size: cover;
@@ -337,7 +342,6 @@ body {
   font-family: Zombie;
   color: #f5f5f5;
   overflow-x: hidden;
-  width: 100vw;
 }
 
 .container {
