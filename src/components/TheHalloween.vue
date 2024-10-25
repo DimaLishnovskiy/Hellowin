@@ -247,6 +247,9 @@ h1 {
   text-align: center;
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 button {
@@ -285,7 +288,7 @@ button {
   width: 443px;
   height: 348px;
   position: relative;
-  margin: 40px auto;
+  margin: 0 auto;
 
   img {
     position: absolute;
@@ -623,8 +626,6 @@ h3 {
   .gif_object {
     width: 270px;
     height: 200px;
-    margin-top: 60px;
-    margin-bottom: 60px;
   }
   .gif_object .hay_bale {
     bottom: 30px;
