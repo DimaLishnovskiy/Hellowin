@@ -258,6 +258,9 @@ button {
   cursor: pointer;
   transition: transform 0.3s ease;
   position: relative;
+  max-width: 462px;
+  margin: auto;
+  
   &:hover {
     transform: scale(1.2);
   }
@@ -597,6 +600,9 @@ h3 {
 }
 
 @media (max-width: 575.98px) {
+  .title_description {
+    width: 100%;
+  }
   .title h1 {
     width: 100%;
   }
@@ -668,7 +674,7 @@ h3 {
   .spider_block {
     position: absolute;
     z-index: 10;
-    top: 2%;
+    top: 25%;
     left: -55px;
   }
 
