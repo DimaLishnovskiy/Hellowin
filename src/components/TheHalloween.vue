@@ -637,7 +637,7 @@ h3 {
     transform: translateX(-50%);
     bottom: 0;
     z-index: 4;
-    height: 40%;
+    height: 60%;
   }
   .gif_object .hay_bale_small {
     right: 45px;
@@ -648,7 +648,7 @@ h3 {
   .gif_object .snoop_dog_dance {
     bottom: 30px;
     height: 190px;
-    right: 30px;
+    right: 20px;
   }
 
   .gif_object .jack_lantern {
