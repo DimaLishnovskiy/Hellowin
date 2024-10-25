@@ -607,6 +607,12 @@ h3 {
 }
 
 @media (max-width: 575.98px) {
+  button {
+    transition: transform 0.6s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
   .title_description {
     width: 100%;
   }
