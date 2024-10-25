@@ -605,11 +605,7 @@ h3 {
 .title.desktop {
   display: flex;
 }
-@media (max-width: 360px) {
-  button .button_text {
-      font-size: 18px;
-  }
-}
+
 @media (max-width: 575.98px) {
   button {
     transition: transform 0.6s ease;
@@ -708,7 +704,12 @@ h3 {
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 360px) {
+  button .button_text {
+      font-size: 18px;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container {
     padding: 24px;
