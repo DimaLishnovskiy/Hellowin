@@ -260,7 +260,7 @@ button {
   position: relative;
   max-width: 462px;
   margin: auto;
-  
+
   &:hover {
     transform: scale(1.2);
   }
@@ -371,7 +371,6 @@ body {
   gap: 30px;
   justify-content: space-around;
   padding: 70px 0;
-  margin-bottom: 80px;
   position: relative;
   text-align: center;
 
