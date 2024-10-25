@@ -605,7 +605,11 @@ h3 {
 .title.desktop {
   display: flex;
 }
-
+@media (max-width: 360px) {
+  button .button_text {
+      font-size: 18px;
+  }
+}
 @media (max-width: 575.98px) {
   button {
     transition: transform 0.6s ease;
