@@ -512,7 +512,7 @@ body {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 1px;
-        width: 180px;
+        width: 200px;
       }
 
       &:nth-child(2) {
