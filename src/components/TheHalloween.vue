@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    <CountDown />
     <div class="title mobile">
       <h1>Ball Hard’s Caskets - Halloween PROMO</h1>
     </div>
@@ -65,8 +66,8 @@
             <div class="item">
               <img
                 class="item_img"
-                src="@/assets/Tzkal_slayer_helmet_chathead.png"
-                alt="Tzkal_slayer_helmet_chathead"
+                src="@/assets/Bow_of_faerdhinen.png"
+                alt="Bow_of_faerdhinen"
               />
               <img
                 class="item_background"
@@ -203,6 +204,7 @@
 </template>
 
 <script setup>
+import CountDown from "./CountDown.vue"
 const redirectUrl = () => {
   window.location.href = "https://pimpmybuild.ballhardsden.com/";
 };
@@ -513,6 +515,17 @@ body {
         line-height: normal;
         letter-spacing: 1px;
         width: 200px;
+      }
+      &:nth-child(1) {
+        .item_img {
+          margin: 0 auto;
+          display: block;
+          position: relative;
+          z-index: 1;
+          margin-top: 50px;
+          top: -35px;
+          left: 5px;
+        }
       }
 
       &:nth-child(2) {
