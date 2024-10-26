@@ -30,10 +30,10 @@ const calculateTimeLeft = () => {
 
 onMounted(() => {
   calculateTimeLeft();
-  const interval = setInterval(calculateTimeLeft, 60000); // Оновлюємо кожну хвилину
+  const interval = setInterval(calculateTimeLeft, 60000);
 
   onUnmounted(() => {
-    clearInterval(interval); // Очищаємо інтервал при виході з компонента
+    clearInterval(interval);
   });
 });
 </script>
