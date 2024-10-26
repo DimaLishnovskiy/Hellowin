@@ -82,12 +82,12 @@ onMounted(() => {
         left: 0;
         font-size: 14px;
         padding: 10px;
-    }
 
-    .count_time {
-        margin: 0;
-        width: 125px;
-        margin: auto;
+        .count_time {
+            margin: 0;
+            width: 120px;
+            margin: auto;
+        }
     }
 }
 </style>
