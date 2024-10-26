@@ -60,7 +60,7 @@
 
       <section class="web">
         <div class="wrapper_web">
-          <h3>What’s Inside The Casket</h3>
+          <h3>What’s Inside The Casket?</h3>
           <div class="wrapper_items">
             <div class="item">
               <img
@@ -97,7 +97,7 @@
                 src="@/assets/Ellipse 1.svg"
                 alt="ellipse"
               />
-              <h4>VOUcher</h4>
+              <h4>Boosting Vouchers</h4>
             </div>
 
             <div class="item">
@@ -121,7 +121,7 @@
                 src="@/assets/Ellipse 1.svg"
                 alt="ellipse"
               />
-              <h4>Our Physical Item - dragon scimitar</h4>
+              <h4>Real-Life Size Physical Dragon Scimitar</h4>
             </div>
           </div>
           <img
