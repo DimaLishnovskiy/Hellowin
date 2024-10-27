@@ -1,6 +1,5 @@
 <template>
   <div class="main">
-    <CountDown />
     <div class="title mobile">
       <h1>Ball Hard’s Caskets - Halloween PROMO</h1>
     </div>
@@ -204,7 +203,6 @@
 </template>
 
 <script setup>
-import CountDown from "./CountDown.vue"
 const redirectUrl = () => {
   window.location.href = "https://pimpmybuild.ballhardsden.com/";
 };
